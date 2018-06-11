@@ -1,0 +1,60 @@
+.Viewer {
+  text-align: center;
+  height: 100vh;
+}
+
+.coverBackground {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(40px) saturate(2);
+  opacity: 1;
+  z-index: -1;
+}
+
+h1 {
+  vertical-align: middle;
+  padding-top: 13vh !important;
+  font-weight: regular !important;
+}
+
+h2 {
+  font-size: 120% !important;
+  color: black !important;
+}
+
+#titleContainer {
+  margin: 0 !important;
+}
+
+#artistContainer {
+  height: 20vh;
+  margin: 0 !important;
+}
+
+#lastContainer {
+  position: absolute;
+  margin: 0 !important;
+  height: 5vh;
+  bottom: 0 !important;
+  width: 100vw !important;
+  opacity: 0.6 !important;
+  transition: all 0.2s ease;
+}
+
+#lastContainer:hover {
+  opacity: 1 !important;
+}
+
+h3 {
+  font-size: 80%;
+  color: rgb(50, 50, 50);
+}
+
+.ui.buttons:not(.basic):not(.inverted) > .button,
+.ui.buttons > .ui.button:not(.basic):not(.inverted) {
+  background: #ffffff73 !important;
+}

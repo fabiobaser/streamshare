@@ -1,0 +1,73 @@
+#Home {
+  text-align: center;
+}
+
+h1.ui.header {
+  font-weight: 100 !important;
+}
+
+h2.ui.header {
+  width: 60vw;
+  margin-left: 20vw;
+  font-size: 0.9rem !important;
+  color: grey;
+}
+
+#inputContainer {
+  width: 80vw !important;
+  margin-left: 10vw !important;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.ui.segments {
+  text-align: left;
+}
+
+.ui.basic.button {
+  float: right;
+  padding: 0 !important;
+  padding-top: 0.2rem !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.ui.basic.button:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.ui.basic.button:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#contentSegment {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #tmp {
+  display: none;
+} */
+
+.ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input {
+  width: 5%;
+  border: none;
+}
+
+#inputContainer > div:after {
+  content: "";
+  position: absolute;
+  left: 77.4%;
+  top: 5%;
+  height: 91%;
+  width: 10%;
+  background: rgb(255, 255, 255) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 85%
+  ) !important;
+}
